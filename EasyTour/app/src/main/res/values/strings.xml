@@ -3,7 +3,7 @@
     <string name="EasyTour">EASYTOUR</string>
     <string name="PSW">Password</string>
     <string name="NotificacionTurista">Aqui va la madre de las notificaciones :v</string>
-    <string name="title_activity_modificar">Modificar</string>
+    <string name="title_activity_turista">Turista</string>
     <string name="title_editarperfil">" "" "Editar Perfil</string>
     <string name="title_notifications">Notificaciones</string>
     <string name="title_activity_guia">guia</string>

@@ -13,8 +13,8 @@
             android:name=".guia"
             android:label="@string/title_activity_guia"></activity>
         <activity
-            android:name=".Modificar"
-            android:label="@string/title_activity_modificar"
+            android:name=".turista"
+            android:label="@string/title_activity_turista"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>

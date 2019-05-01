@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Modificar"
+    tools:context=".turista"
     android:background="#E1E1E2">
 
     <!--Cambiar a otra mejor ocion que no sea el Text View-->
