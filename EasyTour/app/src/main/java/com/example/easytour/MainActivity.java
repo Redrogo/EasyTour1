@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         BotonInicio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity( new Intent(MainActivity.this, turista.class));
+                startActivity( new Intent(MainActivity.this, Modificar.class));
             }
         });
 
