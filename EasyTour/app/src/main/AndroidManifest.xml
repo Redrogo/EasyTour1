@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".guia"
-            android:label="@string/title_activity_guia"></activity>
+            android:name=".Notificaciones"
+            android:label="@string/title_notificaciones"></activity>
         <activity
             android:name=".Modificar"
             android:label="@string/title_activity_modificar"

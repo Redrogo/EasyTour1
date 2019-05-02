@@ -4,9 +4,9 @@
     <string name="PSW">Password</string>
     <string name="NotificacionTurista">Aqui va la madre de las notificaciones :v</string>
     <string name="title_activity_modificar">Modificar</string>
-    <string name="title_editarperfil">" "" "Editar Perfil</string>
-    <string name="title_notifications">Notificaciones</string>
-    <string name="title_activity_guia">guia</string>
+    <string name="editarperfil">" "" "Editar Perfil</string>
+    <string name="notifications">" "" "Notificaciones</string>
+    <string name="title_notificaciones">Notificaciones</string>
     <string name="title_home">Home</string>
     <string name="et_nombre_hint">Nombre(s)</string>
     <string name="et_apt_hint">Ap. paterno</string>

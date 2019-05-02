@@ -77,7 +77,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:id="@+id/id_botoninicio"
+            android:id="@+id/b_inicio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
