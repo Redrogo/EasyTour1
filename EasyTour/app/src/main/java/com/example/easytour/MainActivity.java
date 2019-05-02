@@ -48,14 +48,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        new Cliente();
+        //new Cliente();
         Intent intent = new Intent(this, Modificar.class);
         startActivity(intent);
     }
 
     //Esta clase es para que la app sea como cliente y mande una petición con los datos
     //Se usa socket de datagrama orientados a conexión
-    private  class  Cliente(){
+    /*private  class  Cliente(){
         boolean estado = false;
         try{
             InetAddress maquinaReceptora = InetAddress.getByName("198.168.15.18");
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }catch(Exception e){e.printStackTrace();}
         return estado;
-    }
+    }*/
 
 }
 
