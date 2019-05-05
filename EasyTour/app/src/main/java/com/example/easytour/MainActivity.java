@@ -53,38 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
     }
 
-    //Esta clase es para que la app sea como cliente y mande una petición con los datos
-    //Se usa socket de datagrama orientados a conexión
-    /*private  class  Cliente(){
-        boolean estado = false;
-        try{
-            InetAddress maquinaReceptora = InetAddress.getByName("198.168.15.18");
-            int puertoReceptor = 1024;
-            int miPuerto = 1025;
-            String correo = tie_correo.getText().toString();
-            String password = tie_password.getText().toString();
 
-            String mensaje = correo + " | "+ password; //Se le asignan el texto que se obtuvo de los campos del XML
-
-            //Se instancia a Socket Datagrama
-            MiSocketDatagrama miSocket = new MiSocketDatagrama(miPuerto);
-
-            //Se hace la conexion
-            miSocket.connect(maquinaReceptora, puertoReceptor);
-            for(int i=0; i<10; i++){
-                miSocket.enviaMensaje(maquinaReceptora, puertoReceptor, mensaje);
-
-                //Ahora recibe mensaje por parte del servidor
-                System.out.println(miSocket.recibeMensaje());
-                estado = true;
-                //Se cierra la conexion
-                miSocket.disconnect();
-                miSocket.close();
-            }
-
-        }catch(Exception e){e.printStackTrace();}
-        return estado;
-    }*/
 
 }
 

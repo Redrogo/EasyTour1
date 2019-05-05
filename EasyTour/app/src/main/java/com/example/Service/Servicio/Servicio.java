@@ -1,16 +1,15 @@
 package com.example.Service.Servicio;
-/*import java.util.Observable;
-import retrofit2.http.Field;
-import retrofit2.http.FormUrlEncoded;
-import retrofit2.http.GET;
-import retrofit2.http.POST;
-import retrofit2.http.Query;
+/*
+import java.util.List;
+import java.util.Observable;
 
-import io.reactivex.Observable;
+
+import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 public interface Servicio {
 
     @GET("user")
-    Observable<String> loginUser(@Query("email") String email, @Query("password") String password);
-}*/
-
+    Observable<List<User>> loginUser(@Query("email") String email, @Query("password") String password);
+}
+*/
